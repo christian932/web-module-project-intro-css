@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+html {
+    font-family: 'Roboto Mono';
+}
+
+h1 {
+  font-family: 'Chelsea Market';
+	font-size: 4rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'Roboto Mono';
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.navbar a {
+    display: flex;
+    color: white;
+    margin: 3rem;
+    text-decoration: none;
+}
+
+.navlink1 {
+    background-color: #FF764E;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navlink2 {
+    background-color: #5ED3EB;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navlink3 {
+    background-color: #FFCD69;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+header img {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;    
+    height: auto;
+    justify-content: center;
+}
+
+.content1 p {
+    text-align: center;
+}
+
+.first-section {
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    margin: 5rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.first-section img {
+    height: 10rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 3rem;
+}
+
+.second-section img {
+    height: 10rem;
+}
+
+footer img {
+    height: 20rem;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav {
+    display: flex;
+    margin: 3rem;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.footerlink1 {
+    background-color: #FF764E;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footerlink2 {
+    background-color: #5ED3EB;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footerlink3 {
+    background-color: #FFCD69;
+    padding: 1rem;
+    border-radius: 10px;
+}
